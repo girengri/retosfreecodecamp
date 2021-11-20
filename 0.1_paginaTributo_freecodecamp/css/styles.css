@@ -1,0 +1,77 @@
+:root {
+  --principal: #12263e;
+  --secundario: #42536e;
+  --blanco: #fff;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Benne", serif;
+  background-color: var(--principal);
+  color: var(--blanco);
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+p {
+  font-size: 1.6rem;
+}
+#tribute-info span {
+  font-weight: bold;
+}
+h2 {
+  font-size: 2rem;
+}
+
+main #title,
+main p {
+  text-align: center;
+}
+
+header #title {
+  margin: 2.5rem;
+}
+
+header p {
+  margin-top: -3rem;
+}
+
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 1rem;
+}
+
+footer h2 {
+  text-align: center;
+}
+
+#img-div {
+  background-color: var(--secundario);
+  padding: 1rem;
+  margin: 0 23rem;
+  border-radius: 2rem;
+}
+
+#tribute-info h2 {
+  text-align: center;
+}
+
+.centrar {
+  margin-left: 19rem;
+}
